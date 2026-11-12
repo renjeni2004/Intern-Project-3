@@ -1,0 +1,51 @@
+{
+  "final_model": "Logistic Regression",
+  "final_test_accuracy": 0.704,
+  "final_test_precision": 0.4132029339853301,
+  "final_test_recall": 0.7511111111111111,
+  "final_test_f1": 0.5331230283911672,
+  "final_test_roc_auc": 0.797379211469534,
+  "tuning": {
+    "selected_model_before_tuning": "Logistic Regression",
+    "tuned_model": "Random Forest",
+    "best_params": {
+      "model__n_estimators": 200,
+      "model__min_samples_split": 2,
+      "model__min_samples_leaf": 4,
+      "model__max_depth": 8
+    },
+    "test_accuracy": 0.729,
+    "test_precision": 0.4346590909090909,
+    "test_recall": 0.68,
+    "test_f1": 0.5303292894280762,
+    "test_roc_auc": 0.7932559139784946,
+    "classification_report": {
+      "0": {
+        "precision": 0.8888888888888888,
+        "recall": 0.743225806451613,
+        "f1-score": 0.8095572733661279,
+        "support": 775.0
+      },
+      "1": {
+        "precision": 0.4346590909090909,
+        "recall": 0.68,
+        "f1-score": 0.5303292894280762,
+        "support": 225.0
+      },
+      "accuracy": 0.729,
+      "macro avg": {
+        "precision": 0.6617739898989898,
+        "recall": 0.7116129032258065,
+        "f1-score": 0.669943281397102,
+        "support": 1000.0
+      },
+      "weighted avg": {
+        "precision": 0.7866871843434343,
+        "recall": 0.729,
+        "f1-score": 0.7467309769800662,
+        "support": 1000.0
+      }
+    }
+  },
+  "data_note": "Synthetic educational dataset; not real customer records."
+}

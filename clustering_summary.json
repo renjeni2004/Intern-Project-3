@@ -1,0 +1,11 @@
+{
+  "algorithm": "K-Means",
+  "k": 3,
+  "silhouette_score": 0.38998496875452354,
+  "features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "note": "Exploratory segmentation on scaled numeric attributes."
+}
